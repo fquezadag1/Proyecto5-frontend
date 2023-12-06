@@ -1,6 +1,6 @@
 import { useState, useContext} from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import { UserContext } from './../context/User/UserContext'
+import { UserContext } from './../context/User/UserContext';
 import {
   MDBBtn,
   MDBContainer,
@@ -85,9 +85,9 @@ export const Register = () => {
             Y aprovecha todos los beneficios que tenemos para ti. 
           </h2> */}
           <img
-            src="src/assets/castrol1.jpg"
+            src= "https://postimg.cc/BLzQLcrB"
             class="img-fluid"
-            alt="Hollywood Sign on The Hill"
+            alt=""
           />
         </MDBCol>
 

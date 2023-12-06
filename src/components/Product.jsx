@@ -100,7 +100,7 @@ export const Product = () => {
         (
           <MDBContainer>
             <MDBBreadcrumb>
-              <MDBBreadcrumbItem><Link to='/catalogo'>
+              <MDBBreadcrumbItem><Link to='/Proyecto5-frontend/catalogo'>
                 Catalogo
               </Link>
               </MDBBreadcrumbItem>
@@ -116,7 +116,7 @@ export const Product = () => {
               <MDBCol md='6' offsetMd=''>
                 <div>
                   <img
-                    src="src/assets/castrol3.jpg"
+                    src="https://postimg.cc/tnVRhnyQ"
                     class="img-thumbnail"
                     alt=""
                   />
@@ -133,7 +133,7 @@ export const Product = () => {
                 user?.email ?
                   <div className="mt-10" id="payment-form"></div>
                   :
-                  <Link to="/register">
+                  <Link to="/Proyecto5-frontend/register">
                     <MDBBtn type="button" color='success' className='primary'>
                       Registrate para comprar
                     </MDBBtn>

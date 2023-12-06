@@ -40,7 +40,7 @@ export const Header = () => {
 
     <MDBNavbar className='ms-auto' expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <Link to="/">
+        <Link to="/Proyecto5-frontend/">
           <img
             height='30'
             alt=''
