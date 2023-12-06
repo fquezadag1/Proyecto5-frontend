@@ -24,12 +24,12 @@ export const App = () => {
             <Router>
               <Header />
               <Switch>
-                <AuthRoute exact path="/login" component={Login} />
-                <PublicRoute exact path="/" component={Home} />
-                <PublicRoute exact path="/register" component={Register} />
-                <PrivateRoute exact path="/perfil" component={Perfil} />
-                <PublicRoute exact path="/catalogo" component={Catalog} />
-                <PublicRoute exact path="/:productId" component={Product} />
+                <AuthRoute exact path="/Proyecto5-frontend/login" component={Login} />
+                <PublicRoute exact path="/Proyecto5-frontend/" component={Home} />
+                <PublicRoute exact path="/Proyecto5-frontend/register" component={Register} />
+                <PrivateRoute exact path="/Proyecto5-frontend/perfil" component={Perfil} />
+                <PublicRoute exact path="/Proyecto5-frontend/catalogo" component={Catalog} />
+                <PublicRoute exact path="/Proyecto5-frontend/:productId" component={Product} />
 
               </Switch>
               <Footer />
