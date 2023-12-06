@@ -35,7 +35,7 @@ export const ListProducts = (props) => {
               <MDBCardText>{e.viscosidad}</MDBCardText>
               <MDBCardText>${e.precio}</MDBCardText>
               <div>
-                <Link to={`/${e._id}`}>
+                <Link to={`Proyecto5-frontend/${e._id}`}>
                   <MDBBtn className='my-2' color="primary">Ver Más</MDBBtn>
                 </Link>
               </div>
