@@ -1,8 +1,61 @@
-# React + Vite
+## Descripcion del proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creacion de una plataforma e-commerce utilizando React + NodeJS + MongoDB y ExpressJS
 
-Currently, two official plugins are available:
+## Indice
+- Objetivos
+- Requerimientos Minimos
+- Librerias utilizadas
+- Instalacion
+- Autor
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objetivos
+
+- Manejo de rutas del lado del cliente (Frontend)
+- Manejo de estados locales y globales (Frontend)
+- Manejo de rutas en un servidor (Backend)
+- Gestión y flujo de datos en MongoDB
+- Seguridad (Autenticación y autorización)
+
+
+## Requerimientos Minimos
+
+- Un catálogo de productos
+- Un carrito de compras
+- Una pasarela de pago (puntualmente PayPal o MercadoPago, con la versión de pruebas)
+- Autenticación (registro de usuario e inicio de sesión, a través de JWT)
+- Autorización (zona privada donde el usuario pueda ver su perfil)
+
+## Despliegue
+
+- Frontend: ghpages
+- Backend : render
+
+
+## Librerias Opcionales
+
+- MDBoostrap para la creacion de componentes
+
+## Instalacion
+
+`Frontend`
+
+```shell
+
+$ npm install
+$ npm run dev
+
+```
+
+Luego crear las variables de entorno.
+
+`.env`
+
+```
+VITE_BACKEND_URL=https://proyecto5-backend-kvjp.onrender.com
+
+```
+
+## Autor
+
+Felipe Quezada
