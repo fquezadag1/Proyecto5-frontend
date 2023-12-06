@@ -85,7 +85,7 @@ export const Register = () => {
             Y aprovecha todos los beneficios que tenemos para ti. 
           </h2> */}
           <img
-            src= "https://postimg.cc/BLzQLcrB"
+            src= "https://i.postimg.cc/Znb9Qwj2/castrol1.jpg"
             class="img-fluid"
             alt=""
           />

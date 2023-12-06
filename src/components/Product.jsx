@@ -116,7 +116,7 @@ export const Product = () => {
               <MDBCol md='6' offsetMd=''>
                 <div>
                   <img
-                    src="https://postimg.cc/tnVRhnyQ"
+                    src="https://i.postimg.cc/8cZFgL05/castrol3.jpg"
                     class="img-thumbnail"
                     alt=""
                   />
