@@ -97,7 +97,7 @@ export const Register = () => {
               <MDBCardBody className='p-5'>
                 <MDBCardTitle className='fw-bold mb-1 py-2 text-center'><h2>Registrate!</h2></MDBCardTitle>
                 
-              <Link className='my-1 text-center text-sm' to="/login"><p className="my-1 text-center text-sm text-gray-600">
+              <Link className='my-1 text-center text-sm' to="/Proyecto5-frontend/login"><p className="my-1 text-center text-sm text-gray-600">
                 Si ya tienes cuenta puedes ingresar aquí</p></Link>
                 <MDBRow>
                   <MDBCol col='6'>

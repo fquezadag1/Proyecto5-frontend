@@ -73,7 +73,7 @@ export const Login = () => {
               <p className="text-black-50 text-center mb-3">Ingresa aqui tu Usuario y Contraseña</p>
               <p className="my-1 text-center text-sm text-gray-600">
                 ¿Aun no tienes cuenta?</p>
-              <Link className='my-1 text-center text-sm' to="/register">Regístrate aquí</Link>
+              <Link className='my-1 text-center text-sm' to="/Proyecto5-frontend/register">Regístrate aquí</Link>
               <form onSubmit={(e) => { sendData(e) }}>
                 <MDBInput wrapperClass='mb-4 w-100' label='Email' id='email' name='email' type='email' size="lg" onChange={(e) => { handleChange(e) }} required />
                 <MDBInput wrapperClass='mb-4 w-100' label='Contraseña' id='password' name='password' type='password' size="lg" onChange={(e) => { handleChange(e) }} required />

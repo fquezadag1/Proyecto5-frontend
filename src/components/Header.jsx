@@ -62,17 +62,17 @@ export const Header = () => {
             ctxUser.user?.name ?
 
               <MDBNavbarNav right fullWidth={false}>
-                <MDBNavbarItem className='navbar-text mx-2'><Link to="/catalogo">Ver Todo el Catalogo</Link></MDBNavbarItem>
-                <MDBNavbarItem className='navbar-text mx-2' onClick={toggleOpen}><Link to="/">Cerrar Sesión</Link></MDBNavbarItem>
-                <MDBNavbarItem className='navbar-text mx-2'><Link to="/perfil">Mi cuenta</Link></MDBNavbarItem>
+                <MDBNavbarItem className='navbar-text mx-2'><Link to="/Proyecto5-frontend/catalogo">Ver Todo el Catalogo</Link></MDBNavbarItem>
+                <MDBNavbarItem className='navbar-text mx-2' onClick={toggleOpen}><Link to="/Proyecto5-frontend/">Cerrar Sesión</Link></MDBNavbarItem>
+                <MDBNavbarItem className='navbar-text mx-2'><Link to="/Proyecto5-frontend/perfil">Mi cuenta</Link></MDBNavbarItem>
               </MDBNavbarNav>
 
               :
 
               <MDBNavbarNav right fullWidth={false}>
-                <MDBNavbarItem className='navbar-text mx-2'><Link to="/catalogo">Ver Todo el Catalogo</Link></MDBNavbarItem>
-                <MDBNavbarItem className='navbar-text mx-2'><Link to="/login">Iniciar Sesión</Link></MDBNavbarItem>
-                <MDBNavbarItem className='navbar-text mx-2'><Link to="/register">Registrate</Link></MDBNavbarItem>
+                <MDBNavbarItem className='navbar-text mx-2'><Link to="/Proyecto5-frontend/catalogo">Ver Todo el Catalogo</Link></MDBNavbarItem>
+                <MDBNavbarItem className='navbar-text mx-2'><Link to="/Proyecto5-frontend/login">Iniciar Sesión</Link></MDBNavbarItem>
+                <MDBNavbarItem className='navbar-text mx-2'><Link to="/Proyecto5-frontend/register">Registrate</Link></MDBNavbarItem>
               </MDBNavbarNav>
 
           }
