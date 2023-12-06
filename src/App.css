@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+* {
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.home-bg {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=2a7f2f&c2=1d7f01&gt=l&gd=dcr
+*/
+  background: linear-gradient(270deg, #2A7F2F, #1D7F01);
+  height: auto;
+
+}
